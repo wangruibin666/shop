@@ -1,0 +1,389 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+
+}
+a{
+	text-decoration: none;
+}
+.w {
+	width: 1300px;
+	height: 50px;
+	background: #272822;
+	margin: 0 auto;
+}
+.main{
+	width: 1300px;
+	margin: 0 auto;
+}
+.header{
+	height: 50px;
+	
+	border-bottom: 2px solid #272822;
+}
+.headerLeft span{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-right: 10px;
+
+
+}
+.headerRight{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	
+}
+.headerRight a{
+	padding-right: 5px;
+	color: white;
+	margin-right: 10px;
+}
+.headerRight a:hover{
+	color: #ccc;
+}
+.headerRight span{
+	color: #ccc;
+
+}
+.nav{
+	height: 3px;
+	
+}
+.content{
+	background-color: #FDFDFD;
+}
+.contentt{
+
+		background-color: #FDFDFD;
+	height: 511px;
+}
+.hContent{
+	background-color: #9F8672;
+	height: 611px;
+	padding-left: 100px;
+
+}
+.ads{
+	height: 200px;
+	
+}
+.footer{
+	height: 50px;
+	background-color: #272822;
+}
+.footer ul{
+	list-style: none;
+	padding-top: 15px;
+	padding-left: 450px;
+}
+.footer ul li{
+	float: left;
+	margin-left: 15px;
+
+}
+.footer a{
+	color: #fff;
+}
+.footer a:hover{
+	color: #ccc;
+}
+.floorHeader{
+	height:30px;
+	background-color: #272822;
+	color: white;
+}
+.floorHeader .right span{
+	margin-right: 5px;
+}
+.floorFooter{
+	height: 235px;
+	background-color: #eee;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.floorFooter a{
+	color: #000;
+}
+.floorFooter2{
+	background-color: #eee;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.floorFooter2 a{
+	color: #000;
+}
+.floorFooter2 .commit input{
+	background-color: #e4393c;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+}
+.floorFooter2 .commit input:hover{
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+.floorFooter2 a.a{
+
+	display: inline-block;
+
+}
+.floorFooter2Right{
+	font-weight: bold;
+	text-align: center;
+}	
+
+.floorFooter2 .shop{
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.shop{
+	width: 200px;
+	height: 235px;
+	float: left;
+	margin-left: 100px;
+}
+.shop .shopInfo{
+	line-height: 35px;
+	padding-left: 5px;
+}
+.shopInfo a{
+	color: black;
+}
+.shopPrice{
+	float: right;
+}
+.floorHeader{
+	height: 30px;
+	line-height: 30px;
+}
+.floorHeader .left{
+	float: left;
+	padding-left: 15px;
+}
+.floorHeader .right{
+	float: right;
+	padding-right: 15px;
+}
+.right a{
+	color: white;
+}
+.right a:hover{
+	color: #ccc;
+}
+.clear{
+	clear: both;
+}
+.floorFooter2Left{
+	float: left;
+	width: 150px;
+	height: 300px;
+	
+}
+.floorFooter2Right{
+	
+	float: right;
+	width: 1140px;
+	height: 500px;
+	
+	background-color: #ccc;
+	border-radius: 7px;
+}
+.floorFooter2Right .welcome{
+	margin-left: 300px;
+	margin-top: 130px;
+}
+.floorFooter2Left ul{
+	list-style: none;
+	padding: 15px;
+	padding-top: 50px;
+	
+}
+.floorFooter2Left ul li{
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #ccc;
+	text-align: center;
+}
+.floorFooter2Left ul li a{
+	color: #000;
+}
+.floorFooter2Left ul li a:hover{
+	color: blue;
+}
+table tr{
+	height: 40px;
+}
+table tr th{
+	border-bottom: 1px dashed #000;
+}
+.floorFooter2Right p{
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+.floorFooter2Right input[type=text]{
+	width: 200px;
+
+}
+.personUseradd{
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px; 
+}
+.personUseraddLeft{
+	float: left;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.floorFooter2 table span{
+	/*display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 3px;
+	background-color: red;*/
+}
+.floorFooter2 table a{
+	background-color: #e4393c;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
+.floorFooter2 table a:hover{
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+.floorFooter2 .comment{
+	padding-left: 15px;
+	padding-right: 15px;
+	/*background-color: #ccc;*/
+	height: 100px;
+}
+.floorFooter2 .index{
+	background-color: #e4393c;
+	color: #fff;
+	border-radius: 5px;
+	padding: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.floorFooter2 .comment .left{
+	float: left;
+	/*background-color: pink;*/
+	width: 100px;
+	height: 100px;
+}
+.floorFooter2 .comment .right{
+	float: right;
+	/*background-color: green;*/
+	width: 1170px;
+	height: 100px;
+}
+
+.login{
+	float: left;
+	width: 833px;
+	height: 500px;
+	background: url(../img/det03.jpg) no-repeat;
+}
+.loginForm{
+	float: left;
+	margin-top: 100px;
+
+}
+.loginForm input[name]{
+	width: 200px;
+	height: 25px;
+	font-size: 20px;
+	margin-bottom: 30px;
+			
+}
+.loginForm p{
+	line-height: 25px;
+}
+.loginForm input[type=submit]{
+	background-color: #ccc;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 25px;
+	border: none;
+/*	margin-top: 20px;*/
+	/*margin-bottom: 20px;*/
+	margin-right: 6px;
+	/*box-shadow: 0 0 1px 1px #000;*/
+}
+.loginForm input[type=reset]{
+	background-color: #ccc;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 25px;
+	border: none;
+	/*margin-top: 20px*/;
+	/*margin-bottom: 20px;*/
+}
+.loginForm input[type=button]{
+	background-color: #ccc;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 25px;
+	border: none;
+	margin-left: 5px;
+	/*margin-top: 20px;*/
+	
+
+}
+.hLogin{
+	float: left;
+	width: 733px;
+	height: 500px;
+	background: url(../img/welcom.jpg) no-repeat;
+	margin-top: 100px;
+	
+}
+.cartNum{
+	display: inline-block;
+	
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+	line-height: 15px;
+}
+.floorFooter2 a.aLogin{
+	
+	background-color: #e4393c;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold; 
+}
+.floorFooter2 a:hover{
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+.floorFooter2Right a.notCon{
+	background-color: #888;
+}
+.addCom{
+	width: 80%;
+	height: 100px;
+	resize: none;
+	border-radius: 10px;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
+.addComm input{
+	    background-color: orange;
+    font-family: "微软雅黑";
+    width: 100px;
+    height: 25px;
+    border: none;
+}
+.addComm input:hover{
+	box-shadow: 1px 1px 1px 1px #888;
+}
